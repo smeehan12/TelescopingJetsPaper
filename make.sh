@@ -6,3 +6,4 @@ bibtex TJet.aux
 
 # put it together
 pdflatex TJet.tex
+pdflatex TJet.tex
