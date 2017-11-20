@@ -58,18 +58,18 @@ The Large Hadron Collider (LHC) has begun to probe physics above the electroweak
 
 In the case of boosted top quarks, the top mass ($M_t$) and the $W$ mass ($M_W$) are not hierarchically separated. Therefore $\Theta_t \approx 2M_t/p_T^t$ and $\Theta_W \approx 2M_W/p_T^W$ can be comparable. This results in the generic three-prong structure in the hadronic top decay $t\rightarrow W+b \rightarrow q_1+q_2+b$. However, when examining jets with a mass near $M_t\pm \Delta m$ the selected QCD jets are, again, two-prong-like, so observables which distinguish three-prong jets from two-prong jets will help discriminate QCD jets from true top quark jets.
 
+\begin{figure*}
+    \includegraphics[width=2\columnwidth]{plots/Top_vs_high.eps}
+    \caption{The distributions of the variabilities $v_2$ (left panel) and $v_3$ (middle panel), as well as their ratio $v_{32}$ (right panel) for top and QCD jets with $800~{\rm GeV} < p_T < 1~{\rm TeV}$ and $160~{\rm GeV} < m < 190~{\rm GeV}$ using the truth-particle information.}
+\label{v42}
+\end{figure*}
+
 Given an arbitrary jet observable $\cal O$ with a parameter $a$,
 the variation of the observable with respect to the sampling of parameters $\{a_i\}$ within $(a_{\rm min},a_{\rm max})$, or the {\sl variability}, is quantified by the coefficient of variation $v_{\cal O}^a$ defined as the ratio of the standard deviation and the mean of $\{{\cal O}_{a_i}\}$,
 \be
     v_{\cal O}^a = \frac{\sigma({\cal O}_{a_i})}{\langle {\cal O}_{a_i}\rangle}\;.
 \ee
 Variations with respect to multiple varied parameters can be studied using the variability matrix. Much like the first derivative in calculus, the variability $v_{\cal O}^a$ measures the change of the observable $\cal O$ with respect to the change of the phase-space boundary set by the parameter $a$. Instead of combining observables with different parameters in a multivariate analysis, the variability can give a trend of the observable variation which itself can be used as a distinguishing feature to classify jets.
-
-\begin{figure*}
-    \includegraphics[width=2\columnwidth]{plots/Top_vs_high.eps}
-    \caption{The distributions of the variabilities $v_2$ (left panel) and $v_3$ (middle panel), as well as their ratio $v_{32}$ (right panel) for top and QCD jets with $800~{\rm GeV} < p_T < 1~{\rm TeV}$ and $160~{\rm GeV} < m < 190~{\rm GeV}$ using the truth-particle information.}
-\label{v42}
-\end{figure*}
 
 We consider a variety of telescoping applications. We focus on the variability of the jet mass with respect to varying the parameters which determine the jet constituents contributing to the jet mass. The sampling of the telescoping parameters is uniform within the range $(a_{\rm min},a_{\rm max})$.
 \newline \noindent \textit{\textbf{Telescoping subjets}}: $N$ subjets are reconstructed exclusively around dominant energy flows within a jet. A similar method using the leading subjets in a reclustered jet was explored in \cite{Cui:2010km}. We choose the subjet axes as the $N$-subjettiness axes \cite{Thaler:2010tr} with $\beta = 1$ and build subjets around them with radius $R_T$ \cite{Stewart:2010tn,Chien:2013kca,Stewart:2015waa,Thaler:2015xaa}. Particles are assigned to the nearest axis according to the distance $\Delta R_{ij}$ between the axis $\hat n_i$ and particle $p_j$,
