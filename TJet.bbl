@@ -342,4 +342,16 @@
   {http://arxiv.org/abs/physics/0703039} {arXiv:physics/0703039} \BibitemShut
   {NoStop}%
 %%CITATION = PHYSICS/0703039;%%
+\bibitem [{\citenamefont {Apolinario}\ \emph {et~al.}(2017)\citenamefont
+  {Apolinario}, \citenamefont {Milhano}, \citenamefont {Salam},\ and\
+  \citenamefont {Salgado}}]{Apolinario:2017sob}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Apolinario}}, \bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {Milhano}}, \bibinfo {author} {\bibfnamefont {G.~P.}\ \bibnamefont {Salam}},
+  \ and\ \bibinfo {author} {\bibfnamefont {C.~A.}\ \bibnamefont {Salgado}},\
+  }\href@noop {} {\  (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/1711.03105} {arXiv:1711.03105 [hep-ph]} \BibitemShut
+  {NoStop}%
+%%CITATION = ARXIV:1711.03105;%%
 \end{thebibliography}%
