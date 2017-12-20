@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{26}%
+\begin{thebibliography}{30}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -142,6 +142,32 @@
   (\bibinfo {year} {2010})},\ \Eprint {http://arxiv.org/abs/0912.1342}
   {arXiv:0912.1342 [hep-ph]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:0912.1342;%%
+\bibitem [{\citenamefont {Dasgupta}\ \emph {et~al.}(2013)\citenamefont
+  {Dasgupta}, \citenamefont {Fregoso}, \citenamefont {Marzani},\ and\
+  \citenamefont {Salam}}]{Dasgupta:2013ihk}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Dasgupta}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Fregoso}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Marzani}}, \ and\
+  \bibinfo {author} {\bibfnamefont {G.~P.}\ \bibnamefont {Salam}},\ }\href
+  {\doibase 10.1007/JHEP09(2013)029} {\bibfield  {journal} {\bibinfo  {journal}
+  {JHEP}\ }\textbf {\bibinfo {volume} {09}},\ \bibinfo {pages} {029} (\bibinfo
+  {year} {2013})},\ \Eprint {http://arxiv.org/abs/1307.0007} {arXiv:1307.0007
+  [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1307.0007;%%
+\bibitem [{\citenamefont {Larkoski}\ \emph {et~al.}(2014)\citenamefont
+  {Larkoski}, \citenamefont {Marzani}, \citenamefont {Soyez},\ and\
+  \citenamefont {Thaler}}]{Larkoski:2014wba}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Larkoski}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Marzani}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Soyez}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Thaler}},\ }\href {\doibase
+  10.1007/JHEP05(2014)146} {\bibfield  {journal} {\bibinfo  {journal} {JHEP}\
+  }\textbf {\bibinfo {volume} {05}},\ \bibinfo {pages} {146} (\bibinfo {year}
+  {2014})},\ \Eprint {http://arxiv.org/abs/1402.2657} {arXiv:1402.2657
+  [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1402.2657;%%
 \bibitem [{\citenamefont {Ellis}\ \emph {et~al.}(2012)\citenamefont {Ellis},
   \citenamefont {Hornig}, \citenamefont {Roy}, \citenamefont {Krohn},\ and\
   \citenamefont {Schwartz}}]{Ellis:2012sn}%
@@ -156,6 +182,19 @@
   {182003} (\bibinfo {year} {2012})},\ \Eprint {http://arxiv.org/abs/1201.1914}
   {arXiv:1201.1914 [hep-ph]} \BibitemShut {NoStop}%
 %%CITATION = ARXIV:1201.1914;%%
+\bibitem [{\citenamefont {Mackey}\ \emph {et~al.}(2016)\citenamefont {Mackey},
+  \citenamefont {Nachman}, \citenamefont {Schwartzman},\ and\ \citenamefont
+  {Stansbury}}]{Mackey:2015hwa}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Mackey}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Nachman}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Schwartzman}}, \ and\
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Stansbury}},\ }\href
+  {\doibase 10.1007/JHEP06(2016)010} {\bibfield  {journal} {\bibinfo  {journal}
+  {JHEP}\ }\textbf {\bibinfo {volume} {06}},\ \bibinfo {pages} {010} (\bibinfo
+  {year} {2016})},\ \Eprint {http://arxiv.org/abs/1509.02216} {arXiv:1509.02216
+  [hep-ph]} \BibitemShut {NoStop}%
+%%CITATION = ARXIV:1509.02216;%%
 \bibitem [{\citenamefont {Chien}\ \emph {et~al.}(2014)\citenamefont {Chien},
   \citenamefont {Farhi}, \citenamefont {Krohn}, \citenamefont {Marantan},
   \citenamefont {Lopez~Mateos},\ and\ \citenamefont
@@ -354,4 +393,11 @@
   {http://arxiv.org/abs/1711.03105} {arXiv:1711.03105 [hep-ph]} \BibitemShut
   {NoStop}%
 %%CITATION = ARXIV:1711.03105;%%
+\bibitem [{\citenamefont {Chien}\ and\ \citenamefont
+  {Elayavalli}(2017)}]{Chien:2017hij}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.-T.}\ \bibnamefont
+  {Chien}}\ and\ \bibinfo {author} {\bibfnamefont {R.~K.}\ \bibnamefont
+  {Elayavalli}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {to
+  appear soon}\ } (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
 \end{thebibliography}%
