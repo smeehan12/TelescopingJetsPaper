@@ -21,13 +21,13 @@
 \preprint{MIT-CTP 4952}
 \title{Telescoping Jet Substructure}
 
-\author{Yang-Ting Chien$^{a,d}$}
+\author{Yang-Ting Chien$^{a}$}
 \email{ytchien@mit.edu\\}
 
-\author{Zachary Montague$^{a,b}$}
+\author{Zachary Montague$^{b}$}
 %\email{zacander.mon@gmail.com}
 
-\author{Alex Emerman$^{c,d,e}$}
+\author{Alex Emerman$^{c}$}
 %\email{alex.emerman@gmail.com}
 
 \author{Shih-Chieh Hsu$^b$}
@@ -39,13 +39,11 @@
 \affiliation{
 $^a$ Center for Theoretical Physics, Massachusetts Institute of Technology, Cambridge, MA 02139\\
 $^b$ Department of Physics, University of Washington, Seattle, WA 98195\\
-$^c$ Department of Physics, Columbia University, New York, NY 10027\\
-$^d$ Theoretical Division, T-2, Los Alamos National Laboratory, Los Alamos, NM 87545\\
-$^e$ Physics Department, Reed College, Portland, OR 97202
+$^c$ Department of Physics, Columbia University, New York, NY 10027
 }
 
 \date{\today}
-\linenumbers
+%\linenumbers
 
 \begin{abstract}
 We introduce a novel jet substructure method which exploits the variation of observables with respect to a sampling of phase-space boundaries quantified by the variability. We apply this technique to identify boosted $W$ boson and top quark jets using telescoping subjets which utilizes information coming from subjet topology and that coming from subjet substructure. We find excellent performance of the variability, in particular its robustness against finite detector angular resolution. The extension to telescoping jet grooming and other telescoping jet substructure observables is also straightforward. This method provides a new direction in heavy particle tagging and suggests a systematic approach to the decomposition of jet substructure.
@@ -109,13 +107,12 @@ The background efficiency as a function of the signal efficiency is illustrated 
 
 Shown in Figure \ref{ROC_top} are the ROC curves for top tagging performance including $v_{N2}$ ($N = $ 3, 4), $\theta_{\rm min}$, the BDT combinations of telescoping subjets variables $\{v_2, v_3, m_{W2}\}$ and $\{\theta_2,\theta_{\rm min},m_{W2},v_2,v_3,v_4,v_{m_{W2}}\}$, and the three-prong tagger $\tau_{32}=\tau_{3}/\tau_{2}$. Again, the left and middle panels correspond to the two kinematic regimes $p_T \in (350~{\rm GeV}, 500~{\rm GeV})$ and $p_T \in (800~{\rm GeV}, 1~{\rm TeV})$, and we note tagging performance increases at higher $p_T$. In the right panel, the ROC curves plot both truth-particle and pseudo-calorimeter information. We find the excellent performance of $v_{N2}$ and its robustness against pseudo-calorimeter smearing, especially at high $p_T$ where the performance of the more conventionally used $\tau_{32}$ observable degrades dramatically. This indicates the qualitatively different features of $v_{N2}$ and a three-prong tagger. We also find the usefulness of including $m_{W2}$ in the minimal BDT combination which significantly increases the tagging performance. It is clear that the intrinsic mass scale $M_W$ within the top jet is a unique feature distinguishing itself from the QCD background. Similar to the fact that $v_3$ performs better than $v_2$ in $W$ tagging, the $v_{42}$ observable has a better performance than $v_{32}$, suggesting the significance of a fourth, semi-hard emission in top jets. One starts to see the $W$ isolation within the top jet in the boosted regime.
 
-To conclude, we introduce a qualitatively new jet substructure method using variability to quantify the change of observables with respect to a sampling of the phase-space boundaries in the observable definition. This technique is general and can be used to analyze arbitrary classes of jet substructure observables and grooming procedures. In $W$ and top tagging, we find excellent performance of telescoping subjets quantified by $v_3$ in $W$ tagging and $v_{42}$ in top tagging. Furthermore, their robustness is found to be significantly better than more widely used $N$-prong taggers such as $N$-subjetiness via a comparison of the performance between reconstruction from using truth particles and from a pseudo-calorimeter.
+To conclude, we introduce a qualitatively new jet substructure method using variability to quantify the change of observables with respect to a sampling of the phase-space boundaries in the observable definition. This technique is general and can be used to analyze arbitrary classes of jet substructure observables and grooming procedures. In $W$ and top tagging, we find excellent performance of telescoping subjets quantified by $v_3$ in $W$ tagging and $v_{42}$ in top tagging. Furthermore, their robustness against finite detector angular resolution is found to be significantly better than a typical $N$-prong tagger $N$-subjetiness via a comparison of the performance between reconstruction from using truth particles and from a pseudo-calorimeter.
 
 The new physics messages we learn include the emergence of the isolation of $W$ jets at high $p_T$, which is a dominant feature over their two-prong structure. This is true for all other heavy, color-singlet Standard Model particles including the $Z$ and the Higgs boson. It would be promising to include this feature in their tagging strategies. The top jet also has features beyond the three-prong structure which can be exploited to increase tagging performance. The telescoping subjets provides a systematic framework within which one can construct qualitatively new jet substructure observables. This paves the road toward systematic jet studies using telescoping deconstruction \cite{Chien:2017hij}.
 
 \section{Acknowledgements}
-Y.-T. Chien would like to thank the organizers of the BOOST2015 conference where telescoping jet substructure was first presented. The authors thank Steve Ellis, Matthew Schwartz, Jesse Thaler and Nhan Tran for useful comments and suggestions. Y.-T. Chien was supported by the US Department of Energy (DOE), Office of Science under Contract No. DE-AC52-06NA25396, the DOE Early Career Program and the LHC Theory Initiative Postdoctoral Fellowship under the National Science Foundation grant PHY-1419008. A. Emerman was supported by the National Science Foundation under Grant No. PHY-1707971. S.-C. Hsu and S. Meehan were supported by the DOE Office of Science, Office of High Energy Physics Early Career Research program under Award Number DE-SC0015971. Z. Montague was supported by the University of Washington's Ernest M. Henley \text{\&} Elaine D. Henley Endowed Fellowship.
-
+Y.-T. Chien would like to thank the organizers of the BOOST2015 conference where telescoping jet substructure was first presented. The authors thank Steve Ellis, Ben Nachman, Matthew Schwartz, Jesse Thaler and Nhan Tran for useful comments and suggestions. Y.-T. Chien was supported by the US Department of Energy (DOE), Office of Science under Contract No. DE-AC52-06NA25396, the DOE Early Career Program and the LHC Theory Initiative Postdoctoral Fellowship under the National Science Foundation grant PHY-1419008. A. Emerman was supported by the National Science Foundation under Grant No. PHY-1707971. S.-C. Hsu and S. Meehan were supported by the DOE Office of Science, Office of High Energy Physics Early Career Research program under Award Number DE-SC0015971. Z. Montague was supported by the University of Washington's Ernest M. Henley \text{\&} Elaine D. Henley Endowed Fellowship. Y.-T. Chien and A. Emerman thank the support from Los Alamos National Laboratory where part of this work was performed.
 
 \bibliography{TJet_ref}
 \end{document}
